@@ -1,0 +1,122 @@
+#Google_Search{
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: rgba(0,0,0,0.87);
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-grow: 1;
+  padding-right: 15px;
+  float: right;
+}
+
+#logo {
+  /* background-color: blue; */
+  align-items: center;
+  text-align: center;
+  padding-top: 109px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+#hplogo {
+  background: url('https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
+  height: 92px;
+  width: 272px;
+  background-size: 272px 92px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+#logo_image {
+  color: #4285f4;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  white-space: nowrap;
+  position: relative;
+  padding-left: 210px;
+  top: 76px;
+}
+
+
+
+.wrapped_input {
+  max-width: 584px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapped_svg {
+  margin-top: 15px;
+  padding-right: 13px;
+  padding-left: 13px;
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  /* background-color: pink; */
+
+}
+
+.input_div {
+  color: transparent;
+  white-space: pre;
+  height: 34px;
+  display: block;
+  flex: 1;
+  width: auto;
+  max-width: 584px;
+  margin-top: -66px;
+  font-size: 16px;
+
+}
+
+
+#input_bar {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  flex: 1;
+  font-size: 16px;
+  text-align: start;
+  height: 34px;
+  width: 500px;
+
+}
+
+input[type='submit'] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor:pointer;
+  user-select: none;
+
+}
+
+.google_bottom {
+  /* border: 1px solid #dfe1e5; */
+  display: block;
+  text-align: center;
+  top: 53px;
+  padding-right: 70px;
+  padding-top: 0px;
+}

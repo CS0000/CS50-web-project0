@@ -1,0 +1,194 @@
+.google_header {
+  display: flex;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+#Google_Search{
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: rgba(0,0,0,0.87);
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-grow: 1;
+  padding-right: 15px;
+  float: right;
+  text-align: right;
+}
+
+#logo {
+  padding-top: 12px;
+  padding-left: 12px;
+  display: flex;
+}
+
+#hplogo {
+  background: url('https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
+  height: 26px;
+  width: 74px;
+  background-size: 74px 26px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.appbar{
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 34px;
+  vertical-align: baseline;
+  display:block;
+  font-family: arial;
+  padding: 0;
+
+}
+
+.border {
+  border-bottom: 1px solid #ebebeb;
+  vertical-align: baseline;
+  display: block;
+}
+
+.lOTAE {
+  height: 30px;
+  color: #555;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.prologue {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  min-height: 42px;
+  font-weight: 500;
+  color: #333;
+  vertical-align: middle;
+  font-family: arial;
+}
+
+.wrapped_search {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.prologue_blank {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.search_area {
+  clear: both;
+  font-family: arial, sans-serif;
+  display: block;
+}
+
+.FAcADc {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 16%;
+  line-height: 28px;
+  height: 42px;
+  font-size: 13px;
+
+}
+
+.JYcx0e {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.input_bar {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  padding: 1px 8px;
+  display: inline-block;
+  height: 29px;
+  width: 100%;
+}
+
+.before_bottom {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+.bottom {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 42px;
+  vertical-align: middle;
+  width: 50%;
+  padding-top: 20px;
+}
+
+input[type='submit'] {
+  height: 30px;
+  min-width: 120px;
+  box-shadow: none;
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+  border: 1px solid #3079ed;
+  color: #fff;
+  cursor: default;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiddenNotes {
+  float:left;
+  width: 32%;
+  min-width: 160px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #555;
+  padding-left: 5px;
+  padding-top: 5px;
+  vertical-align: middle;
+  font-family: arial;
+  margin: 0 0 8px 1%;
+  position: relative;
+}
+
+
+@media (max-width:1056px) {
+  .hiddenNotes {
+    display: none !important;
+  }
+}
+
+.hiddenNotes_detail {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+  vertical-align: baseline;
+  font-weight: normal;
+}
